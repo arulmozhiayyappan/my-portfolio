@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="">
-      <BrowserRouter basename=" https://arulmozhiayyappan.github.io/its-my-portfolioo/">
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
